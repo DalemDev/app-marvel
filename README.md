@@ -10,6 +10,6 @@ This project allows to search for marvel characters and provide an image, name a
 
 ![Marvel App](./src/assets/img/MarvelApp.JPG)
 
-[Demo](https://dalemdev.github.io/app-marvel/)
+[Demo](https://dalemdev-app-marvel.netlify.app/)
 
 Developed by **Dalemberg Garcia ♥**

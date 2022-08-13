@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "http://gateway.marvel.com/v1/public/characters?ts=1000&apikey=ca7b5432f9519a561453e24ad0132281&hash=60f90beb73b92a462b60de850fe2982f"
+      "https://gateway.marvel.com/v1/public/characters?ts=1000&apikey=ca7b5432f9519a561453e24ad0132281&hash=60f90beb73b92a462b60de850fe2982f"
     )
       .then((response) => response.json())
       .then((json) => {
@@ -25,7 +25,7 @@ function App() {
     e.preventDefault();
     if (search === "") {
       fetch(
-        "http://gateway.marvel.com/v1/public/characters?ts=1000&apikey=ca7b5432f9519a561453e24ad0132281&hash=60f90beb73b92a462b60de850fe2982f"
+        "https://gateway.marvel.com/v1/public/characters?ts=1000&apikey=ca7b5432f9519a561453e24ad0132281&hash=60f90beb73b92a462b60de850fe2982f"
       )
         .then((response) => response.json())
         .then((json) => {
@@ -33,7 +33,7 @@ function App() {
         });
     } else {
       fetch(
-        "http://gateway.marvel.com/v1/public/characters?nameStartsWith=" +
+        "https://gateway.marvel.com/v1/public/characters?nameStartsWith=" +
           search +
           "&ts=1000&apikey=ca7b5432f9519a561453e24ad0132281&hash=60f90beb73b92a462b60de850fe2982f"
       )
